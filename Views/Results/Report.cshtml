@@ -1,0 +1,24 @@
+﻿@model IEnumerable<OnlineAptitudeTest.Models.Result>
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<div class="cyber-panel" id="printableReport">
+    <div class="d-flex justify-content-between mb-4 border-bottom border-dark pb-2">
+        <h5 class="text-white">_SYSTEM_GENERAL_REPORT</h5>
+        <button onclick="window.print()" class="text-neon bg-transparent border-0 small">PRINT_HARDCOPY</button>
+    </div>
+    <table class="table table-sm">
+        <thead class="x-small text-secondary text-uppercase">
+            <tr><th>DATE</th><th>CANDIDATE_ID</th><th>SCORE</th><th>RESULT</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var r in Model)
+            {
+                <tr>
+                    <td>@(r.TestDate.HasValue ? r.TestDate.Value.ToShortDateString() : "---")</td>
+                    <td>@r.CandidateID</td>
+                    <td class="text-neon">@r.TotalScore</td>
+                    <td>@(r.TotalScore >= 50 ? "VALID" : "INVALID")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

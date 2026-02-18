@@ -1,0 +1,9 @@
+﻿@model OnlineAptitudeTest.Models.Result
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6 cyber-panel text-center">
+        <h1 class="text-neon display-3 fw-bold">@Model.TotalScore</h1>
+        <p>TIMESTAMP: @(Model.TestDate.HasValue ? Model.TestDate.Value.ToString("yyyy-MM-dd HH:mm") : "N/A")</p> @* Fix for Snap 1 *@
+        <a href="/Test/Dashboard" class="btn-cyber mt-4">TERMINAL_RETURN</a>
+    </div>
+</div>

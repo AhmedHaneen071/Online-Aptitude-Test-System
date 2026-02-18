@@ -1,0 +1,21 @@
+﻿@model IEnumerable<OnlineAptitudeTest.Models.Result>
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<div class="cyber-panel">
+    <h5 class="text-neon mb-4">_VALIDATED_CANDIDATES_ONLY</h5>
+    <table class="table border-dark">
+        <thead class="small text-uppercase">
+            <tr><th>Candidate_ID</th><th>Final_Score</th><th>Verification_Date</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var r in Model)
+            {
+                <tr>
+                    <td>USR_@r.CandidateID</td>
+                    <td class="text-neon">@r.TotalScore</td>
+                    <td>@(r.TestDate.HasValue ? r.TestDate.Value.ToString("yyyy-MM-dd") : "N/A")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="/Manager/Index" class="btn-cyber mt-3">BACK_TO_ROOT</a>
+</div>

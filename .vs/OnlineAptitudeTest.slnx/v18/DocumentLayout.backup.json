@@ -1,0 +1,420 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|g:\\aptech\\onlineaptitudetest\\onlineaptitudetest\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\test\\taketest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\test\\taketest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\manager\\candidateprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\manager\\candidateprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\test\\candidateprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\test\\candidateprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\test\\myrecords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\test\\myrecords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\test\\finalresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\test\\finalresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\test\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\test\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\manager\\createquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\manager\\createquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\manager\\managequestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\manager\\managequestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\manager\\viewprogress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\manager\\viewprogress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\results\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\results\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\test\\instructions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\test\\instructions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\manager\\apticlearlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\manager\\apticlearlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\manager\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\manager\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\views\\manager\\editquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:views\\manager\\editquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F83A4E-DC7F-418D-9113-62E18BD13307}|OnlineAptitudeTest.csproj|solutionrelative:models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyRecords.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Test\\MyRecords.cshtml",
+              "RelativeDocumentMoniker": "Views\\Test\\MyRecords.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Test\\MyRecords.cshtml",
+              "RelativeToolTip": "Views\\Test\\MyRecords.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T10:15:44.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TakeTest.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Test\\TakeTest.cshtml",
+              "RelativeDocumentMoniker": "Views\\Test\\TakeTest.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Test\\TakeTest.cshtml",
+              "RelativeToolTip": "Views\\Test\\TakeTest.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswDwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T08:56:11.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Controllers\\ManagerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ManagerController.cs",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Controllers\\ManagerController.cs",
+              "RelativeToolTip": "Controllers\\ManagerController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T09:46:23.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CandidateProfile.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Manager\\CandidateProfile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\CandidateProfile.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Manager\\CandidateProfile.cshtml",
+              "RelativeToolTip": "Views\\Manager\\CandidateProfile.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCgAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T10:00:00.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestController.cs",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Controllers\\TestController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T08:54:06.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T09:04:41.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CandidateProfile.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Test\\CandidateProfile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Test\\CandidateProfile.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Test\\CandidateProfile.cshtml",
+              "RelativeToolTip": "Views\\Test\\CandidateProfile.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswCcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T06:11:31.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FinalResult.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Test\\FinalResult.cshtml",
+              "RelativeDocumentMoniker": "Views\\Test\\FinalResult.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Test\\FinalResult.cshtml",
+              "RelativeToolTip": "Views\\Test\\FinalResult.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T10:34:38.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Test\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Test\\Dashboard.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Test\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Test\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T09:02:59.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateQuestion.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Manager\\CreateQuestion.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\CreateQuestion.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Manager\\CreateQuestion.cshtml",
+              "RelativeToolTip": "Views\\Manager\\CreateQuestion.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAswFAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T09:48:17.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Models\\Model1.edmx",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-02-08T08:45:53.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Web.config",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Web.config",
+              "RelativeDocumentMoniker": "Views\\Web.config",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Web.config",
+              "RelativeToolTip": "Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-02-10T06:01:45.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ViewProgress.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Manager\\ViewProgress.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\ViewProgress.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Manager\\ViewProgress.cshtml",
+              "RelativeToolTip": "Views\\Manager\\ViewProgress.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAswDoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T09:49:04.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ManageQuestions.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Manager\\ManageQuestions.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\ManageQuestions.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Manager\\ManageQuestions.cshtml",
+              "RelativeToolTip": "Views\\Manager\\ManageQuestions.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T09:46:44.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T08:50:28.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Report.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Results\\Report.cshtml",
+              "RelativeDocumentMoniker": "Views\\Results\\Report.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Results\\Report.cshtml",
+              "RelativeToolTip": "Views\\Results\\Report.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T08:55:43.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T09:14:12.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Instructions.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Test\\Instructions.cshtml",
+              "RelativeDocumentMoniker": "Views\\Test\\Instructions.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Test\\Instructions.cshtml",
+              "RelativeToolTip": "Views\\Test\\Instructions.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T09:18:07.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AptiClearList.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Manager\\AptiClearList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\AptiClearList.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Manager\\AptiClearList.cshtml",
+              "RelativeToolTip": "Views\\Manager\\AptiClearList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T09:51:28.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ResultsController.cs",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Controllers\\ResultsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ResultsController.cs",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Controllers\\ResultsController.cs",
+              "RelativeToolTip": "Controllers\\ResultsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T08:54:43.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Manager\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\Index.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Manager\\Index.cshtml",
+              "RelativeToolTip": "Views\\Manager\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T10:48:05.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T09:05:20.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA0wCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T08:53:28.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EditQuestion.cshtml",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Manager\\EditQuestion.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\EditQuestion.cshtml",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Views\\Manager\\EditQuestion.cshtml",
+              "RelativeToolTip": "Views\\Manager\\EditQuestion.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwCgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T09:48:42.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Models\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "Models\\Model1.Context.cs",
+              "ToolTip": "G:\\Aptech\\OnlineAptitudeTest\\OnlineAptitudeTest\\Models\\Model1.Context.cs",
+              "RelativeToolTip": "Models\\Model1.Context.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T10:10:45.124Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

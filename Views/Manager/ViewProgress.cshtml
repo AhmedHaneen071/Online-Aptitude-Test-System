@@ -1,0 +1,59 @@
+﻿@model IEnumerable<OnlineAptitudeTest.Models.Result>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    // Target user ka naam controller se ViewBag mein aa raha hai
+    var userName = ViewBag.User ?? "UNKNOWN_NODE";
+}
+
+<div class="cyber-panel">
+    <div class="d-flex justify-content-between align-items-center mb-4 border-bottom border-dark pb-3">
+        <div>
+            <h5 class="text-white m-0">_USER_PROGRESS_LOGS</h5>
+            <small class="text-neon">IDENTIFIER: @userName</small>
+        </div>
+        <div class="text-end">
+            <small class="text-secondary d-block">TOTAL_ATTEMPTS</small>
+            <h4 class="text-white m-0">@Model.Count()</h4>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table border-dark align-middle">
+            <thead class="small text-secondary text-uppercase">
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Score_Acquired</th>
+                    <th>Status_Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var r in Model)
+                {
+                    <tr>
+                        @* Date Nullable Check: Image 1 fix *@
+                        <td class="small">
+                            @(r.TestDate.HasValue ? r.TestDate.Value.ToString("yyyy-MM-dd | HH:mm") : "INVALID_DATE")
+                        </td>
+                        <td class="fw-bold @(r.TotalScore >= 50 ? "text-neon" : "text-danger")">
+                            @r.TotalScore
+                        </td>
+                        <td>
+                            @if (r.TotalScore >= 50)
+                            {
+                                <span class="badge border border-neon text-neon rounded-0 small">VALIDATED</span>
+                            }
+                            else
+                            {
+                                <span class="badge border border-danger text-danger rounded-0 small">REJECTED</span>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="mt-4 border-top border-dark pt-3">
+        <a href="/Manager/Index" class="btn-cyber btn-sm text-decoration-none">_RETURN_TO_REGISTRY</a>
+    </div>
+</div>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebsterAptitudeDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AptiClear">
+    <Key>
+      <PropertyRef Name="ClearID" />
+    </Key>
+    <Property Name="ClearID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CandidateID" Type="int" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="100" />
+    <Property Name="TotalScore" Type="int" />
+    <Property Name="TransferDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Candidates">
+    <Key>
+      <PropertyRef Name="CandidateID" />
+    </Key>
+    <Property Name="CandidateID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+    <Property Name="Education" Type="nvarchar" MaxLength="100" />
+    <Property Name="Experience" Type="nvarchar" MaxLength="100" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Questions">
+    <Key>
+      <PropertyRef Name="QuestionID" />
+    </Key>
+    <Property Name="QuestionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="QuestionText" Type="varchar(max)" />
+    <Property Name="Op1" Type="varchar" MaxLength="500" />
+    <Property Name="Op2" Type="varchar" MaxLength="500" />
+    <Property Name="Op3" Type="varchar" MaxLength="500" />
+    <Property Name="Op4" Type="varchar" MaxLength="500" />
+    <Property Name="CorrectAnswer" Type="varchar" MaxLength="500" />
+    <Property Name="Section" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Results">
+    <Key>
+      <PropertyRef Name="ResultID" />
+    </Key>
+    <Property Name="ResultID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CandidateID" Type="int" />
+    <Property Name="TotalScore" Type="int" />
+    <Property Name="TestDate" Type="datetime" />
+    <Property Name="Status" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK__Results__Candida__4F7CD00D">
+    <End Role="Candidates" Type="Self.Candidates" Multiplicity="0..1" />
+    <End Role="Results" Type="Self.Results" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Candidates">
+        <PropertyRef Name="CandidateID" />
+      </Principal>
+      <Dependent Role="Results">
+        <PropertyRef Name="CandidateID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WebsterAptitudeDBModelStoreContainer">
+    <EntitySet Name="AptiClear" EntityType="Self.AptiClear" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Candidates" EntityType="Self.Candidates" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Questions" EntityType="Self.Questions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Results" EntityType="Self.Results" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Results__Candida__4F7CD00D" Association="Self.FK__Results__Candida__4F7CD00D">
+      <End Role="Candidates" EntitySet="Candidates" />
+      <End Role="Results" EntitySet="Results" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

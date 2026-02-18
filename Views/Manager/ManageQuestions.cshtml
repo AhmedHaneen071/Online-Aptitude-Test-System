@@ -1,0 +1,43 @@
+﻿@model IEnumerable<OnlineAptitudeTest.Models.Question>
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<div class="cyber-panel">
+    <div class="d-flex justify-content-between align-items-center mb-4 border-bottom border-dark pb-3">
+        <div>
+            <h5 class="text-white m-0">_SYSTEM_QUESTION_BANK</h5>
+            <small class="text-secondary">TOTAL_RECORDS: @Model.Count()</small>
+        </div>
+        <div class="d-flex gap-2">
+            @* Naya Registry Button *@
+            <a href="/Manager/Index" class="btn-cyber btn-sm" style="border-color: #525252; color: #a3a3a3;">_RETURN_TO_REGISTRY</a>
+            <a href="/Manager/CreateQuestion" class="btn-cyber btn-sm">_ADD_NEW_ENTRY</a>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table border-dark align-middle">
+            <thead class="small text-secondary text-uppercase">
+                <tr>
+                    <th style="width: 60%;">Query_Content</th>
+                    <th style="width: 20%;">Correct_Key</th>
+                    <th class="text-end" style="width: 20%;">Operations</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var q in Model)
+                {
+                    <tr>
+                        <td class="small py-3">@q.QuestionText</td>
+                        <td class="text-neon fw-bold">@q.CorrectAnswer</td>
+                        <td class="text-end">
+                            <a href="/Manager/Edit/@q.QuestionID" class="text-info text-decoration-none me-3 small">EDIT</a>
+                            <a href="/Manager/Delete/@q.QuestionID"
+                               onclick="return confirm('WARNING: PERMANENT_DELETION. PROCEED?');"
+                               class="text-danger text-decoration-none small">DELETE</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

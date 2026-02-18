@@ -1,0 +1,41 @@
+﻿@model OnlineAptitudeTest.Models.Question
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<div class="glass-card p-5">
+    <h3 class="text-primary fw-bold mb-4">Edit Question</h3>
+    @using (Html.BeginForm())
+    {
+        @Html.HiddenFor(m => m.QuestionID)
+        <div class="mb-3">
+            <label class="fw-bold">Question Text</label>
+            @Html.TextAreaFor(m => m.QuestionText, new { @class = "form-control", rows = "3" })
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label>Option A</label>
+                @Html.TextBoxFor(m => m.Op1, new { @class = "form-control" })
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>Option B</label>
+                @Html.TextBoxFor(m => m.Op2, new { @class = "form-control" })
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>Option C</label>
+                @Html.TextBoxFor(m => m.Op3, new { @class = "form-control" })
+            </div>
+            <div class="col-md-6 mb-3">
+                <label>Option D</label>
+                @Html.TextBoxFor(m => m.Op4, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="fw-bold text-success">Correct Answer</label>
+            @Html.TextBoxFor(m => m.CorrectAnswer, new { @class = "form-control" })
+        </div>
+        <div class="mb-4">
+            <label class="fw-bold">Category/Section</label>
+            @Html.TextBoxFor(m => m.Section, new { @class = "form-control" })
+        </div>
+        <button type="submit" class="btn btn-custom px-5">Update Question</button>
+        <a href="/Manager/ManageQuestions" class="btn btn-outline-secondary ms-2">Cancel</a>
+    }
+</div>

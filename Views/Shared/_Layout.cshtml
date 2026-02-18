@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSTER_CORE_OS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --neon: #bef264;
+            --bg: #0a0a0a;
+            --panel: #171717;
+            --border: #262626;
+            --text: #a3a3a3;
+        }
+
+        body {
+            background-color: var(--bg) !important;
+            color: var(--text) !important;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cyber-panel {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-top: 3px solid var(--neon);
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 10px 10px 0px #000;
+        }
+
+        .btn-cyber {
+            background: transparent;
+            color: var(--neon);
+            border: 1px solid var(--neon);
+            padding: 10px 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+            .btn-cyber:hover {
+                background: var(--neon);
+                color: black;
+                box-shadow: 0 0 15px var(--neon);
+            }
+
+        .form-control {
+            background: #000 !important;
+            border: 1px solid var(--border) !important;
+            color: var(--neon) !important;
+            border-radius: 0 !important;
+            padding: 12px !important;
+        }
+
+        .table {
+            color: #d4d4d4 !important;
+            border-color: var(--border) !important;
+        }
+
+        .text-neon {
+            color: var(--neon) !important;
+        }
+
+        .header-bar {
+            border-bottom: 1px solid var(--border);
+            padding: 15px 0;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-bar">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="fw-bold text-white fs-4">CORE://WEBSTER</div>
+            <div class="d-flex align-items-center">
+                @if (Session["Username"] != null)
+                {
+                    <span class="text-neon small me-3">ID: @Session["Username"]</span>
+                    <a href="/Account/Logout" class="text-danger small text-decoration-none border border-danger px-2 py-1">_TERMINATE</a>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

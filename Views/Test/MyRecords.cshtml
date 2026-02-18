@@ -1,0 +1,16 @@
+﻿@model IEnumerable<OnlineAptitudeTest.Models.Result>
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<div class="cyber-panel">
+    <h5 class="text-white mb-4">_EXECUTION_LOGS</h5>
+    <table class="table">
+        @foreach (var r in Model)
+        {
+            <tr>
+                <td>@(r.TestDate.HasValue ? r.TestDate.Value.ToShortDateString() : "---")</td> @* Fix for Snap 1 *@
+                <td class="text-neon">SCORE: @r.TotalScore</td>
+                <td>@(r.TotalScore >= 50 ? "PASS" : "FAIL")</td>
+            </tr>
+        }
+    </table>
+    <a href="/Test/Dashboard" class="btn-cyber">BACK</a>
+</div>

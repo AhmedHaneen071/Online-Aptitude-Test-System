@@ -1,0 +1,61 @@
+﻿    @model IEnumerable<OnlineAptitudeTest.Models.Question>
+    @{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+    <div class="cyber-panel">
+        <div class="d-flex justify-content-between align-items-center mb-5 border-bottom border-dark pb-3">
+            <div>
+                <h4 class="text-white m-0">_ACTIVE_ASSESSMENT</h4>
+                <small class="text-secondary">SYSTEM_ID: @Session["CandidateID"]</small>
+            </div>
+            <div class="text-end">
+                <small class="text-secondary d-block">TIME_REMAINING</small>
+                <h3 id="timer" class="text-neon fw-bold m-0">10:00</h3>
+            </div>
+        </div>
+
+        @using (Html.BeginForm("SubmitTest", "Test", FormMethod.Post, new { id = "testForm" }))
+        {
+            foreach (var q in Model)
+            {
+                <div class="mb-5 border-start border-dark ps-4">
+                    <p class="text-white mb-3 fw-bold">@q.QuestionText</p>
+                    <div class="row g-3">
+                        @foreach (var opt in new[] { q.Op1, q.Op2, q.Op3, q.Op4 })
+                        {
+                            <div class="col-md-6">
+                                <label class="d-flex align-items-center p-2 border border-dark w-100" style="cursor:pointer">
+                                    <input type="radio" name="q_@q.QuestionID" value="@opt" required>
+                                    <span class="small text-secondary">@opt</span>
+                                </label>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+            <div class="mt-5 pt-4 border-top border-dark text-center">
+                <button type="submit" class="btn-cyber px-5 py-3 w-50">FINAL_TRANSMISSION</button>
+            </div>
+        }
+    </div>
+
+    <script>
+        // 10 Minutes Timer Logic
+        let time = 600;
+        const timerElement = document.getElementById('timer');
+
+        const countdown = setInterval(() => {
+            let minutes = Math.floor(time / 60);
+            let seconds = time % 60;
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+            timerElement.innerHTML = `${minutes}:${seconds}`;
+
+            if (time <= 60) timerElement.style.color = "#ff4444"; // Warning color
+
+            if (time <= 0) {
+                clearInterval(countdown);
+                alert("TIME_EXPIRED: AUTO_SUBMITTING_DATA");
+                document.getElementById('testForm').submit();
+            }
+            time--;
+        }, 1000);
+    </script>

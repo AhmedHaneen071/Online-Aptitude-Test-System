@@ -1,0 +1,14 @@
+﻿<div class="row justify-content-center mt-5">
+    <div class="col-md-4 cyber-panel">
+        <h5 class="text-white mb-4">_AUTHENTICATE_USER</h5>
+        @if (ViewBag.Error != null)
+        {<div class="text-danger small mb-3">@ViewBag.Error</div>}
+        @using (Html.BeginForm())
+        {
+            <input type="text" name="username" class="form-control mb-3" placeholder="IDENTIFIER" required>
+            <input type="password" name="password" class="form-control mb-4" placeholder="ACCESS_KEY" required>
+            <button type="submit" class="btn-cyber w-100">GRANT_ACCESS</button>
+        }
+        <div class="mt-3 text-center"><a href="/Account/Register" class="text-secondary small">Request_New_Protocol</a></div>
+    </div>
+</div>

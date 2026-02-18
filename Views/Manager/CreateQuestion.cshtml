@@ -1,0 +1,89 @@
+﻿@model OnlineAptitudeTest.Models.Question
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var isEdit = Model != null && Model.QuestionID > 0;
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="cyber-panel">
+            @* Header *@
+            <div class="d-flex justify-content-between align-items-center mb-4 border-bottom border-dark pb-3">
+                <h5 class="text-white m-0">@(isEdit ? "_UPDATE_QUERY_NODE" : "_INITIALIZE_NEW_QUERY")</h5>
+                <a href="/Manager/ManageQuestions" class="text-secondary small text-decoration-none">_CANCEL_OPERATION</a>
+            </div>
+
+            @using (Html.BeginForm(isEdit ? "Edit" : "CreateQuestion", "Manager", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken() @* Security Token to prevent 404/Forgery errors *@
+
+                if (isEdit)
+                {
+                    @Html.HiddenFor(m => m.QuestionID)
+                }
+
+                @* Question Text *@
+                <div class="mb-4">
+                    <label class="small text-secondary mb-2 d-block">QUERY_CONTENT (Question)</label>
+                    @Html.TextAreaFor(m => m.QuestionText, new { @class = "form-control cyber-input", rows = "3", required = "required", placeholder = "Enter question here..." })
+                </div>
+
+                <div class="row">
+                    @* Option 1 *@
+                    <div class="col-md-6 mb-3">
+                        <label class="small text-secondary mb-1">DATA_POINT_01 (Option 1)</label>
+                        @Html.TextBoxFor(m => m.Op1, new { @class = "form-control cyber-input", required = "required" })
+                    </div>
+                    @* Option 2 *@
+                    <div class="col-md-6 mb-3">
+                        <label class="small text-secondary mb-1">DATA_POINT_02 (Option 2)</label>
+                        @Html.TextBoxFor(m => m.Op2, new { @class = "form-control cyber-input", required = "required" })
+                    </div>
+                    @* Option 3 *@
+                    <div class="col-md-6 mb-3">
+                        <label class="small text-secondary mb-1">DATA_POINT_03 (Option 3)</label>
+                        @Html.TextBoxFor(m => m.Op3, new { @class = "form-control cyber-input", required = "required" })
+                    </div>
+                    @* Option 4 *@
+                    <div class="col-md-6 mb-3">
+                        <label class="small text-secondary mb-1">DATA_POINT_04 (Option 4)</label>
+                        @Html.TextBoxFor(m => m.Op4, new { @class = "form-control cyber-input", required = "required" })
+                    </div>
+                </div>
+
+                @* Correct Answer *@
+                <div class="mb-4 mt-3">
+                    <label class="small text-neon mb-2 d-block">VERIFIED_KEY (Correct Answer)</label>
+                    @Html.TextBoxFor(m => m.CorrectAnswer, new { @class = "form-control cyber-input border-neon", required = "required", placeholder = "Must match one of the options exactly" })
+                    <small class="text-muted" style="font-size: 10px;">Warning: String matching is case-sensitive. Ensure exact text from options.</small>
+                </div>
+
+                @* Action Buttons *@
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn-cyber w-100">
+                        @(isEdit ? "_COMMIT_CHANGES" : "_EXECUTE_UPLOAD")
+                    </button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@* Simple CSS to ensure inputs match the theme *@
+<style>
+    .cyber-input {
+        background: #0a0a0a !important;
+        border: 1px solid #333 !important;
+        color: #fff !important;
+        border-radius: 0 !important;
+    }
+
+        .cyber-input:focus {
+            border-color: #00ff41 !important;
+            box-shadow: none !important;
+        }
+
+    .border-neon {
+        border-color: #00ff41 !important;
+    }
+</style>

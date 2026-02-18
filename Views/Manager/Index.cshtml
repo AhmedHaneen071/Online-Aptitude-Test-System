@@ -1,0 +1,24 @@
+﻿@model IEnumerable<OnlineAptitudeTest.Models.Candidate>
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<div class="row g-0 mb-4">
+    <div class="col-md-6 border border-dark p-4">
+        <small class="text-uppercase">System_Metric</small>
+        @{
+            int total = ViewBag.TotalTests ?? 0;
+            int passed = ViewBag.PassCount ?? 0;
+            double rate = total > 0 ? (double)passed / total * 100 : 0;
+        }
+        <div class="mt-2" style="height:5px; background:#262626;"><div style="width:@rate%; height:100%; background:var(--neon);"></div></div>
+        <div class="small mt-2">SUCCESS_RATE: @rate.ToString("F1")%</div>
+    </div>
+</div>
+<div class="cyber-panel">
+    <h6 class="text-white mb-3">_USER_REGISTRY</h6>
+    <table class="table">
+        @foreach (var item in Model)
+        {
+            <tr><td>@item.Username</td><td><a href="/Manager/ViewProgress/@item.CandidateID" class="text-neon">VIEW_LOGS</a></td></tr>
+        }
+    </table>
+    <a href="/Manager/ManageQuestions" class="btn-cyber mt-3">MANAGE_REPOSITORIES</a>
+</div>

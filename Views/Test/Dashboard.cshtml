@@ -1,0 +1,23 @@
+﻿@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<div class="row justify-content-center mt-5">
+    <div class="col-md-10">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="cyber-panel text-center">
+                    <div class="small text-secondary mb-3">_PROFILE</div>
+                    <h5 class="text-white">@Session["Username"]</h5>
+                    <a href="/Test/CandidateProfile" class="text-neon small text-decoration-none">VIEW_ID_DETAILS</a>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="cyber-panel">
+                    <h5 class="text-white mb-4">_AVAILABLE_PROTOCOLS</h5>
+                    <div class="d-grid gap-3">
+                        <a href="/Test/Instructions" class="btn-cyber text-center">INITIATE_ASSESSMENT</a>
+                        <a href="/Test/MyRecords" class="btn-cyber text-center" style="opacity: 0.7;">VIEW_ARCHIVED_LOGS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
